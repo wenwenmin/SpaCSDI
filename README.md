@@ -12,7 +12,7 @@ The publicly available  datasets were used in this study. You can download them 
 
 
 
-## Run SpaDAMA and other Baselines models
+## Run SpaCSDI models
 After configuring the environment, download the datasets from the data repository and place them in the datasets/ directory. Then, use the provided notebooks (data_prepare.ipynb) and scripts (dataset.py) to generate the simulated datasets and intermediate files. Finally, update the file paths in main_code.py as needed, and run the script to start the experiment.
 
 ## Citing

@@ -8,9 +8,7 @@ We introduce SpaCSDI (Cross-slice Deconvolution and Integration), a unified end-
 To run `SpaCSDI`, you need to install [PyTorch](https://pytorch.org) with GPU support first. The environment supporting SpaCSDI and baseline models is specified in the `requirements.txt` file.
 
 ## Datasets
-The publicly available  datasets were used in this study. You can download them from 10.5281/zenodo.17539983
-
-
+The publicly available  datasets were used in this study. You can download them from [Zenodo](https://zenodo.org/records/17539983)
 
 ## Run SpaCSDI models
 After configuring the environment, download the datasets from the data repository and place them in the datasets/ directory. Then, use the provided notebooks (data_prepare.ipynb) and scripts (dataset.py) to generate the simulated datasets and intermediate files. Finally, update the file paths in main_code.py as needed, and run the script to start the experiment.
